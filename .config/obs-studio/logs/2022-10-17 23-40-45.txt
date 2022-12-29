@@ -1,0 +1,693 @@
+23:40:45.640: Physical Cores: 8, Logical Cores: 8
+23:40:45.641: Physical Memory: 3734MB Total, 107MB Free
+23:40:45.642: Kernel Version: Linux 5.4.0-faked
+23:40:45.646: Distribution: "Ubuntu" "22.04"
+23:40:45.646: Session Type: x11
+23:40:45.647: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+23:40:45.661: Qt Version: 5.15.4 (runtime), 5.15.4 (compiled)
+23:40:45.662: Portable mode: false
+23:40:46.829: OBS 27.2.4+dfsg1-2+b3 (linux)
+23:40:46.830: ---------------------------------
+23:40:46.845: ---------------------------------
+23:40:46.846: audio settings reset:
+23:40:46.846: 	samples per sec: 48000
+23:40:46.846: 	speakers:        2
+23:40:46.951: ---------------------------------
+23:40:46.952: Initializing OpenGL...
+23:40:48.295: Loading up OpenGL on adapter Mesa/X.org llvmpipe (LLVM 14.0.6, 128 bits)
+23:40:48.295: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 22.2.0-rc3, shading language 4.50
+23:40:48.733: ---------------------------------
+23:40:48.734: video settings reset:
+23:40:48.734: 	base resolution:   1360x768
+23:40:48.734: 	output resolution: 1088x614
+23:40:48.734: 	downscale filter:  Bicubic
+23:40:48.734: 	fps:               30/1
+23:40:48.734: 	format:            NV12
+23:40:48.734: 	YUV mode:          709/Partial
+23:40:48.736: NV12 texture support not available
+23:40:48.745: Audio monitoring device:
+23:40:48.745: 	name: Default
+23:40:48.745: 	id: default
+23:40:48.747: ---------------------------------
+23:40:48.774: Failed to load 'en-US' text for module: 'decklink-captions.so'
+23:40:48.798: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+23:40:49.490: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+23:40:49.492: No blackmagic support
+23:40:49.616: v4l2loopback not installed, virtual camera disabled
+23:40:50.432: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+23:40:50.432: 
+23:40:50.433: FFMPEG VAAPI supported
+23:40:50.616: [vlc-video]: VLC 3.0.17.4 Vetinari found, VLC video source enabled
+23:40:50.618: ---------------------------------
+23:40:50.618:   Loaded Modules:
+23:40:50.619:     vlc-video.so
+23:40:50.619:     text-freetype2.so
+23:40:50.620:     rtmp-services.so
+23:40:50.620:     obs-x264.so
+23:40:50.621:     obs-transitions.so
+23:40:50.622:     obs-outputs.so
+23:40:50.622:     obs-filters.so
+23:40:50.622:     obs-ffmpeg.so
+23:40:50.623:     linux-v4l2.so
+23:40:50.623:     linux-pulseaudio.so
+23:40:50.624:     linux-jack.so
+23:40:50.625:     linux-decklink.so
+23:40:50.625:     linux-capture.so
+23:40:50.626:     linux-alsa.so
+23:40:50.626:     image-source.so
+23:40:50.626:     frontend-tools.so
+23:40:50.627:     decklink-ouput-ui.so
+23:40:50.628:     decklink-captions.so
+23:40:50.629: ---------------------------------
+23:40:50.631: ==== Startup complete ===============================================
+23:40:50.671: No scene file found, creating default scene
+23:40:50.815: All scene data cleared
+23:40:50.816: ------------------------------------------------
+23:40:50.934: pulse-input: Server name: 'pulseaudio 16.1-dirty'
+23:40:50.937: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+23:40:50.940: pulse-input: Started recording from 'OpenSL_ES_sink.monitor'
+23:40:50.942: Switched to scene 'Scene'
+23:40:50.945: Failed to glob scene collections
+23:40:51.493: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+23:40:51.493: 
+23:40:52.898: [rtmp-services plugin] Successfully updated file 'services.json' (version 201)
+23:40:52.900: [rtmp-services plugin] Successfully updated package (version 201)
+23:40:56.174: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 49
+23:40:56.240: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 57
+23:40:56.326: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadValue (integer parameter out of range for operation), Serial: 64
+23:40:56.369: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 68
+23:40:56.420: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 75
+23:40:56.450: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 82
+23:40:56.482: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 89
+23:40:56.508: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 96
+23:40:56.553: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 103
+23:40:56.614: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 110
+23:40:56.698: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 117
+23:40:56.741: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 124
+23:40:56.852: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 131
+23:40:56.881: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 138
+23:40:56.914: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 145
+23:40:56.935: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 152
+23:40:56.995: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 159
+23:40:57.042: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 166
+23:40:57.072: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 173
+23:40:57.109: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 180
+23:40:57.151: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 187
+23:40:57.178: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 194
+23:40:57.211: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 201
+23:40:57.236: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 208
+23:40:57.273: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 215
+23:40:57.314: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 222
+23:40:57.343: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 229
+23:40:57.378: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 236
+23:40:57.410: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 243
+23:40:57.434: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 250
+23:40:57.468: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 257
+23:40:57.512: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 264
+23:40:57.536: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 271
+23:40:57.581: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 278
+23:41:03.549: Last log entry repeated for 170 more lines
+23:41:03.552: 
+23:41:03.552: ==== Auto-config wizard testing commencing ======
+
+23:41:03.572: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1475
+23:41:04.174: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1482
+23:41:04.184: ---------------------------------
+23:41:04.185: video settings reset:
+23:41:04.185: 	base resolution:   1360x768
+23:41:04.185: 	output resolution: 1272x720
+23:41:04.185: 	downscale filter:  Bicubic
+23:41:04.185: 	fps:               60/1
+23:41:04.185: 	format:            NV12
+23:41:04.185: 	YUV mode:          709/Partial
+23:41:04.186: NV12 texture support not available
+23:41:04.200: ---------------------------------
+23:41:04.204: [x264 encoder: 'test_x264'] preset: veryfast
+23:41:04.205: [x264 encoder: 'test_x264'] profile: high
+23:41:04.208: [x264 encoder: 'test_x264'] settings:
+23:41:04.208: 	rate_control: CRF
+23:41:04.208: 	bitrate:      0
+23:41:04.208: 	buffer size:  0
+23:41:04.208: 	crf:          20
+23:41:04.208: 	fps_num:      60
+23:41:04.208: 	fps_den:      1
+23:41:04.208: 	width:        1272
+23:41:04.208: 	height:       720
+23:41:04.208: 	keyint:       250
+23:41:04.208: 
+23:41:04.232: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1489
+23:41:04.233: ---------------------------------
+23:41:04.236: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+23:41:04.236: 
+23:41:04.274: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1496
+23:41:06.070: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1503
+23:41:06.191: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1510
+23:41:06.362: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1517
+23:41:06.544: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1524
+23:41:07.150: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1531
+23:41:07.880: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1538
+23:41:08.561: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1545
+23:41:09.029: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1552
+23:41:09.257: Output 'null': stopping
+23:41:09.258: Output 'null': Total frames output: 108
+23:41:09.259: Output 'null': Total drawn frames: 9 (288 attempted)
+23:41:09.260: Output 'null': Number of lagged frames due to rendering lag/stalls: 279 (96.9%)
+23:41:09.295: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1559
+23:41:09.395: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1566
+23:41:09.486: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1573
+23:41:09.541: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1580
+23:41:09.607: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1587
+23:41:09.650: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1594
+23:41:09.710: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1601
+23:41:09.714: ---------------------------------
+23:41:09.715: video settings reset:
+23:41:09.715: 	base resolution:   1360x768
+23:41:09.715: 	output resolution: 1272x720
+23:41:09.715: 	downscale filter:  Bicubic
+23:41:09.715: 	fps:               30/1
+23:41:09.715: 	format:            NV12
+23:41:09.715: 	YUV mode:          709/Partial
+23:41:09.717: NV12 texture support not available
+23:41:09.725: ---------------------------------
+23:41:09.726: [x264 encoder: 'test_x264'] preset: veryfast
+23:41:09.727: [x264 encoder: 'test_x264'] profile: high
+23:41:09.730: [x264 encoder: 'test_x264'] settings:
+23:41:09.730: 	rate_control: CRF
+23:41:09.730: 	bitrate:      0
+23:41:09.730: 	buffer size:  0
+23:41:09.730: 	crf:          20
+23:41:09.730: 	fps_num:      30
+23:41:09.730: 	fps_den:      1
+23:41:09.730: 	width:        1272
+23:41:09.730: 	height:       720
+23:41:09.730: 	keyint:       250
+23:41:09.730: 
+23:41:09.763: ---------------------------------
+23:41:09.764: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+23:41:09.764: 
+23:41:09.795: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1608
+23:41:09.966: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1615
+23:41:10.129: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1622
+23:41:10.293: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1629
+23:41:10.452: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1636
+23:41:10.651: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1643
+23:41:10.895: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1650
+23:41:11.115: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1657
+23:41:11.291: adding 85 milliseconds of audio buffering, total audio buffering is now 128 milliseconds (source: Desktop Audio)
+23:41:11.291: 
+23:41:11.382: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1664
+23:41:11.914: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1671
+23:41:12.340: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1678
+23:41:12.731: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1685
+23:41:13.113: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1692
+23:41:13.571: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1699
+23:41:13.883: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1706
+23:41:14.272: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1713
+23:41:14.564: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1720
+23:41:14.772: Output 'null': stopping
+23:41:14.775: Output 'null': Total frames output: 100
+23:41:14.776: Output 'null': Total drawn frames: 17 (145 attempted)
+23:41:14.777: Output 'null': Number of lagged frames due to rendering lag/stalls: 128 (88.3%)
+23:41:14.781: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1727
+23:41:14.861: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1734
+23:41:14.925: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1741
+23:41:15.025: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1748
+23:41:15.147: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1755
+23:41:15.227: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1762
+23:41:15.264: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1769
+23:41:15.309: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1776
+23:41:15.311: ---------------------------------
+23:41:15.312: video settings reset:
+23:41:15.312: 	base resolution:   1360x768
+23:41:15.312: 	output resolution: 848x480
+23:41:15.312: 	downscale filter:  Bicubic
+23:41:15.312: 	fps:               60/1
+23:41:15.312: 	format:            NV12
+23:41:15.312: 	YUV mode:          709/Partial
+23:41:15.313: NV12 texture support not available
+23:41:15.315: ---------------------------------
+23:41:15.316: [x264 encoder: 'test_x264'] preset: veryfast
+23:41:15.317: [x264 encoder: 'test_x264'] profile: high
+23:41:15.318: [x264 encoder: 'test_x264'] settings:
+23:41:15.318: 	rate_control: CRF
+23:41:15.318: 	bitrate:      0
+23:41:15.318: 	buffer size:  0
+23:41:15.318: 	crf:          20
+23:41:15.318: 	fps_num:      60
+23:41:15.318: 	fps_den:      1
+23:41:15.318: 	width:        848
+23:41:15.318: 	height:       480
+23:41:15.318: 	keyint:       250
+23:41:15.318: 
+23:41:15.338: ---------------------------------
+23:41:15.340: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+23:41:15.340: 
+23:41:15.357: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1783
+23:41:15.443: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1790
+23:41:15.546: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1797
+23:41:15.647: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1804
+23:41:15.766: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1811
+23:41:15.886: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1818
+23:41:16.079: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1825
+23:41:16.244: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1832
+23:41:16.400: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1839
+23:41:16.612: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1846
+23:41:16.983: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1853
+23:41:17.204: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1860
+23:41:17.380: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1867
+23:41:17.652: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1874
+23:41:17.781: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1881
+23:41:18.002: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1888
+23:41:18.257: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1895
+23:41:18.385: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1902
+23:41:18.768: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1909
+23:41:18.914: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1916
+23:41:19.053: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1923
+23:41:19.280: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1930
+23:41:19.441: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1937
+23:41:19.681: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1944
+23:41:19.805: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1951
+23:41:20.065: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1958
+23:41:20.328: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1965
+23:41:20.343: Output 'null': stopping
+23:41:20.344: Output 'null': Total frames output: 237
+23:41:20.344: Output 'null': Total drawn frames: 26 (285 attempted)
+23:41:20.345: Output 'null': Number of lagged frames due to rendering lag/stalls: 259 (90.9%)
+23:41:20.516: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1972
+23:41:20.606: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1979
+23:41:20.649: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1986
+23:41:20.690: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 1993
+23:41:20.733: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2000
+23:41:20.769: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2007
+23:41:20.812: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2014
+23:41:20.865: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2021
+23:41:20.902: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2028
+23:41:20.906: ---------------------------------
+23:41:20.906: video settings reset:
+23:41:20.906: 	base resolution:   1360x768
+23:41:20.906: 	output resolution: 1088x614
+23:41:20.906: 	downscale filter:  Bicubic
+23:41:20.906: 	fps:               30/1
+23:41:20.906: 	format:            NV12
+23:41:20.906: 	YUV mode:          709/Partial
+23:41:20.908: NV12 texture support not available
+23:41:20.936: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2035
+23:41:21.002: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2042
+23:41:21.026: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2049
+23:41:21.048: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2056
+23:41:21.079: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2063
+23:41:21.111: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2070
+23:41:21.135: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2077
+23:41:21.167: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2084
+23:41:21.211: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2091
+23:41:21.339: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2098
+23:41:21.447: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2105
+23:41:21.479: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2112
+23:41:21.530: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2119
+23:41:21.574: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2126
+23:41:21.618: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2133
+23:41:21.649: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2140
+23:41:21.676: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2147
+23:41:21.714: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2154
+23:41:21.752: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2161
+23:41:21.783: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2168
+23:41:21.840: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2175
+23:41:21.883: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2182
+23:41:21.922: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2189
+23:41:21.965: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2196
+23:41:22.020: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2203
+23:41:22.046: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2210
+23:41:22.090: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2217
+23:41:22.147: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2224
+23:41:22.174: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2231
+23:41:22.225: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2238
+23:41:22.272: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2245
+23:41:25.158: Last log entry repeated for 38 more lines
+23:41:25.160: ---------------------------------
+23:41:25.161: video settings reset:
+23:41:25.161: 	base resolution:   1360x768
+23:41:25.161: 	output resolution: 1272x720
+23:41:25.161: 	downscale filter:  Bicubic
+23:41:25.161: 	fps:               60/1
+23:41:25.161: 	format:            NV12
+23:41:25.161: 	YUV mode:          709/Partial
+23:41:25.166: NV12 texture support not available
+23:41:25.236: 
+23:41:25.236: ==== Auto-config wizard testing stopping ========
+
+23:41:25.243: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2518
+23:41:25.284: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2525
+23:41:25.322: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2532
+23:41:25.358: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2539
+23:41:25.398: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2546
+23:41:25.446: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2553
+23:41:25.487: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2560
+23:41:25.546: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2567
+23:41:25.628: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2574
+23:41:25.681: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2581
+23:41:25.741: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2588
+23:41:25.791: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2595
+23:41:25.850: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2602
+23:41:25.896: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2609
+23:41:25.966: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2616
+23:41:26.015: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2623
+23:41:26.057: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2630
+23:41:26.097: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2637
+23:41:26.134: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2644
+23:41:26.163: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2651
+23:41:26.194: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2658
+23:41:26.229: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2665
+23:41:26.271: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2672
+23:41:26.315: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2679
+23:41:26.345: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2686
+23:41:26.364: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2693
+23:41:26.409: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2700
+23:41:26.431: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2707
+23:41:26.468: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2714
+23:41:26.496: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2721
+23:41:26.523: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 2728
+23:41:30.577: Last log entry repeated for 87 more lines
+23:41:30.578: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadValue (integer parameter out of range for operation), Serial: 3345
+23:41:30.588: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3349
+23:41:30.616: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3356
+23:41:30.640: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3363
+23:41:30.665: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3370
+23:41:30.708: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3377
+23:41:30.735: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3384
+23:41:30.767: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3391
+23:41:30.799: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3398
+23:41:30.835: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3405
+23:41:30.859: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3412
+23:41:30.906: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3419
+23:41:30.974: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3426
+23:41:31.040: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3433
+23:41:31.092: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3440
+23:41:31.113: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3447
+23:41:31.135: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3454
+23:41:31.162: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3461
+23:41:31.197: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3468
+23:41:31.227: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3475
+23:41:31.268: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3482
+23:41:31.310: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3489
+23:41:31.330: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3496
+23:41:31.366: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3503
+23:41:31.399: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3510
+23:41:31.427: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3517
+23:41:31.454: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3524
+23:41:31.488: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3531
+23:41:31.519: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3538
+23:41:31.556: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3545
+23:41:31.578: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3552
+23:41:31.632: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 3559
+23:41:47.864: Last log entry repeated for 318 more lines
+23:41:47.865: xshm-input: Geometry 1360x768 @ 0,0
+23:41:47.892: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5803
+23:41:47.910: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5810
+23:41:47.946: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene'
+23:41:49.763: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5817
+23:41:50.922: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5834
+23:41:50.972: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5840
+23:41:51.061: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5847
+23:41:51.088: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5853
+23:41:51.166: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5860
+23:41:51.197: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5866
+23:41:51.260: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5873
+23:41:51.293: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5879
+23:41:51.348: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5886
+23:41:51.374: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5892
+23:41:51.435: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5899
+23:41:51.457: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5905
+23:41:51.541: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5912
+23:41:51.606: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5918
+23:41:51.662: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5925
+23:41:51.692: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5931
+23:41:51.753: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5938
+23:41:51.785: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5944
+23:41:51.859: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5951
+23:41:51.903: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5957
+23:41:51.975: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5964
+23:41:52.005: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5970
+23:41:52.076: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5977
+23:41:52.109: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5983
+23:41:52.190: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5990
+23:41:52.216: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 5996
+23:41:52.292: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 6003
+23:41:52.325: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 6009
+23:41:52.403: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 6016
+23:41:52.424: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 6022
+23:42:52.869: Last log entry repeated for 720 more lines
+23:42:52.870: Settings changed (outputs)
+23:42:52.872: ------------------------------------------------
+23:42:53.076: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11155
+23:42:53.147: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11162
+23:42:53.218: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11169
+23:42:53.295: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11176
+23:42:53.379: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11183
+23:42:53.460: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11190
+23:42:53.534: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11197
+23:42:53.623: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11204
+23:42:53.691: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11211
+23:42:53.754: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11218
+23:42:53.840: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11225
+23:42:53.942: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11232
+23:42:54.066: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11239
+23:42:54.157: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11246
+23:42:54.243: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11253
+23:42:54.338: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11260
+23:42:54.430: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11267
+23:42:54.509: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11274
+23:42:54.580: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11281
+23:42:54.665: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11288
+23:42:54.741: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11295
+23:42:54.811: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11302
+23:42:54.921: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11309
+23:42:55.035: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11316
+23:42:55.141: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11323
+23:42:55.204: ---------------------------------
+23:42:55.205: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+23:42:55.206: [x264 encoder: 'simple_h264_recording'] profile: high
+23:42:55.209: [x264 encoder: 'simple_h264_recording'] settings:
+23:42:55.209: 	rate_control: CRF
+23:42:55.209: 	bitrate:      0
+23:42:55.209: 	buffer size:  0
+23:42:55.209: 	crf:          21
+23:42:55.209: 	fps_num:      60
+23:42:55.209: 	fps_den:      1
+23:42:55.209: 	width:        1272
+23:42:55.209: 	height:       720
+23:42:55.209: 	keyint:       250
+23:42:55.209: 
+23:42:55.221: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11330
+23:42:55.279: ---------------------------------
+23:42:55.288: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11337
+23:42:55.296: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+23:42:55.296: 
+23:42:55.403: ==== Recording Start ===============================================
+23:42:55.404: [ffmpeg muxer: 'simple_file_output'] Writing file '/sdcard/Movies/2022-10-17 23-42-55.mkv'...
+23:42:55.414: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11344
+23:42:55.788: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11351
+23:42:56.074: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11358
+23:42:56.427: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11365
+23:42:57.357: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11372
+23:42:57.616: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11379
+23:42:58.977: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11386
+23:42:59.275: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11393
+23:43:00.829: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11400
+23:43:02.450: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11407
+23:43:03.360: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11414
+23:43:04.119: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11421
+23:43:04.236: [ffmpeg muxer: 'simple_file_output'] Output of file '/sdcard/Movies/2022-10-17 23-42-55.mkv' stopped
+23:43:04.237: Output 'simple_file_output': stopping
+23:43:04.238: Output 'simple_file_output': Total frames output: 369
+23:43:04.239: Output 'simple_file_output': Total drawn frames: 12 (531 attempted)
+23:43:04.239: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 519 (97.7%)
+23:43:04.241: ==== Recording Stop ================================================
+23:43:04.520: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11428
+23:43:04.599: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11435
+23:43:04.679: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11442
+23:43:04.756: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11449
+23:43:04.832: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11456
+23:43:04.921: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11463
+23:43:04.986: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11470
+23:43:05.053: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11477
+23:43:05.126: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11484
+23:43:05.199: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11491
+23:43:05.317: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11498
+23:43:05.460: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11505
+23:43:05.558: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11512
+23:43:05.643: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11519
+23:43:05.764: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11526
+23:43:05.843: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11533
+23:43:06.005: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11540
+23:43:06.097: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11547
+23:43:06.205: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11554
+23:43:06.311: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11561
+23:43:06.405: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11568
+23:43:06.501: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11575
+23:43:06.586: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11582
+23:43:06.693: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11589
+23:43:06.774: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11596
+23:43:06.868: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11603
+23:43:07.005: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11610
+23:43:07.069: ==== Shutting down ==================================================
+23:43:07.137: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11617
+23:43:07.239: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11624
+23:43:07.304: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11631
+23:43:07.329: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11638
+23:43:07.341: pulse-input: Stopped recording from 'OpenSL_ES_sink.monitor'
+23:43:07.342: pulse-input: Got 13616 packets with 6009349 frames
+23:43:07.360: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11645
+23:43:07.390: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11652
+23:43:07.413: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11659
+23:43:07.435: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11666
+23:43:07.446: All scene data cleared
+23:43:07.447: ------------------------------------------------
+23:43:07.455: X Error: BadShmSeg (invalid shared segment parameter), Major opcode: 131, Minor opcode: BadWindow (invalid Window parameter), Serial: 11673
+23:43:08.306: [Scripting] Total detached callbacks: 0
+23:43:08.307: Freeing OBS context data
+23:43:08.482: == Profiler Results =============================
+23:43:08.482: run_program_init: 8239.4 ms
+23:43:08.483:  ┣OBSApp::AppInit: 51.151 ms
+23:43:08.484:  ┃ ┗OBSApp::InitLocale: 18.267 ms
+23:43:08.485:  ┗OBSApp::OBSInit: 6717.95 ms
+23:43:08.486:    ┣obs_startup: 24.187 ms
+23:43:08.487:    ┗OBSBasic::OBSInit: 5455.57 ms
+23:43:08.488:      ┣OBSBasic::InitBasicConfig: 11.775 ms
+23:43:08.489:      ┣OBSBasic::ResetAudio: 1.724 ms
+23:43:08.490:      ┣OBSBasic::ResetVideo: 1898.05 ms
+23:43:08.491:      ┣OBSBasic::InitOBSCallbacks: 0.054 ms
+23:43:08.491:      ┣OBSBasic::InitHotkeys: 0.261 ms
+23:43:08.492:      ┣obs_load_all_modules: 1869.47 ms
+23:43:08.493:      ┃ ┣obs_init_module(decklink-captions.so): 0.866 ms
+23:43:08.494:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 7.575 ms
+23:43:08.495:      ┃ ┣obs_init_module(frontend-tools.so): 513.357 ms
+23:43:08.495:      ┃ ┣obs_init_module(image-source.so): 0.063 ms
+23:43:08.496:      ┃ ┣obs_init_module(linux-alsa.so): 0.04 ms
+23:43:08.497:      ┃ ┣obs_init_module(linux-capture.so): 18.593 ms
+23:43:08.498:      ┃ ┣obs_init_module(linux-decklink.so): 5.47 ms
+23:43:08.498:      ┃ ┣obs_init_module(linux-jack.so): 0.072 ms
+23:43:08.499:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.04 ms
+23:43:08.499:      ┃ ┣obs_init_module(linux-v4l2.so): 32.31 ms
+23:43:08.500:      ┃ ┣obs_init_module(obs-ffmpeg.so): 29.658 ms
+23:43:08.500:      ┃ ┃ ┗nvenc_check: 4.525 ms
+23:43:08.501:      ┃ ┣obs_init_module(obs-filters.so): 0.156 ms
+23:43:08.502:      ┃ ┣obs_init_module(obs-outputs.so): 0.035 ms
+23:43:08.503:      ┃ ┣obs_init_module(obs-transitions.so): 0.08 ms
+23:43:08.504:      ┃ ┣obs_init_module(obs-x264.so): 0.076 ms
+23:43:08.504:      ┃ ┣obs_init_module(rtmp-services.so): 5.091 ms
+23:43:08.505:      ┃ ┣obs_init_module(text-freetype2.so): 0.915 ms
+23:43:08.505:      ┃ ┗obs_init_module(vlc-video.so): 50.371 ms
+23:43:08.506:      ┣OBSBasic::ResetOutputs: 2.573 ms
+23:43:08.507:      ┣OBSBasic::CreateHotkeys: 0.223 ms
+23:43:08.507:      ┣OBSBasic::InitService: 10.069 ms
+23:43:08.508:      ┣OBSBasic::InitPrimitives: 2.023 ms
+23:43:08.509:      ┗OBSBasic::Load: 273.382 ms
+23:43:08.509: obs_hotkey_thread(25 ms): min=0.292 ms, median=6.892 ms, max=1148.85 ms, 99th percentile=253.725 ms, 82.5122% below 25 ms
+23:43:08.510: audio_thread(Audio): min=0.005 ms, median=0.168 ms, max=737.716 ms, 99th percentile=6.56 ms
+23:43:08.511:  ┗receive_audio: min=0.011 ms, median=0.972 ms, max=98.562 ms, 99th percentile=8.583 ms, 0.186627 calls per parent call
+23:43:08.512:    ┣buffer_audio: min=0.004 ms, median=0.006 ms, max=1.414 ms, 99th percentile=0.105 ms
+23:43:08.512:    ┗do_encode: min=0.075 ms, median=0.972 ms, max=98.528 ms, 99th percentile=8.844 ms
+23:43:08.513:      ┣encode(test_aac): min=0.068 ms, median=0.825 ms, max=8.825 ms, 99th percentile=3.188 ms, 0.64206 calls per parent call
+23:43:08.514:      ┣send_packet: min=0.003 ms, median=0.018 ms, max=96.967 ms, 99th percentile=0.119 ms
+23:43:08.515:      ┗encode(simple_aac_recording): min=0.227 ms, median=2.226 ms, max=14.335 ms, 99th percentile=9.723 ms, 0.35794 calls per parent call
+23:43:08.515: obs_graphics_thread(33.3333 ms): min=0.938 ms, median=20.053 ms, max=1430.44 ms, 99th percentile=109.845 ms, 83.1169% below 33.333 ms
+23:43:08.516:  ┣tick_sources: min=0.004 ms, median=0.031 ms, max=0.246 ms, 99th percentile=0.15 ms
+23:43:08.516:  ┣output_frame: min=0.774 ms, median=1.229 ms, max=564.594 ms, 99th percentile=9.603 ms
+23:43:08.517:  ┃ ┗gs_context(video->graphics): min=0.768 ms, median=1.223 ms, max=564.589 ms, 99th percentile=9.596 ms
+23:43:08.517:  ┃   ┣render_video: min=0.097 ms, median=0.136 ms, max=563.305 ms, 99th percentile=0.308 ms
+23:43:08.519:  ┃   ┃ ┗render_main_texture: min=0.081 ms, median=0.12 ms, max=563.27 ms, 99th percentile=0.279 ms
+23:43:08.519:  ┃   ┗gs_flush: min=0.591 ms, median=0.992 ms, max=9.4 ms, 99th percentile=5.867 ms
+23:43:08.520:  ┗render_displays: min=0.028 ms, median=17.961 ms, max=1429.21 ms, 99th percentile=84.416 ms
+23:43:08.521: obs_graphics_thread(16.6667 ms): min=39.48 ms, median=121.371 ms, max=1795.52 ms, 99th percentile=1795.52 ms, 0% below 16.667 ms
+23:43:08.522:  ┣tick_sources: min=0.028 ms, median=0.034 ms, max=0.1 ms, 99th percentile=0.1 ms
+23:43:08.523:  ┣output_frame: min=1.83 ms, median=109.215 ms, max=1781.87 ms, 99th percentile=1781.87 ms
+23:43:08.523:  ┃ ┣gs_context(video->graphics): min=1.825 ms, median=107.377 ms, max=1781.86 ms, 99th percentile=1781.86 ms
+23:43:08.524:  ┃ ┃ ┣render_video: min=0.543 ms, median=107.244 ms, max=1781.72 ms, 99th percentile=1781.72 ms
+23:43:08.525:  ┃ ┃ ┃ ┣render_main_texture: min=0.465 ms, median=0.56 ms, max=3.358 ms, 99th percentile=3.358 ms
+23:43:08.525:  ┃ ┃ ┃ ┣render_output_texture: min=15.371 ms, median=27.857 ms, max=871.03 ms, 99th percentile=871.03 ms, 0.529412 calls per parent call
+23:43:08.526:  ┃ ┃ ┃ ┣render_convert_texture: min=77.716 ms, median=127.952 ms, max=900.414 ms, 99th percentile=900.414 ms, 0.529412 calls per parent call
+23:43:08.526:  ┃ ┃ ┃ ┗stage_output_texture: min=9.669 ms, median=26.348 ms, max=40.3 ms, 99th percentile=40.3 ms, 0.529412 calls per parent call
+23:43:08.527:  ┃ ┃ ┣gs_flush: min=0.012 ms, median=0.025 ms, max=5.018 ms, 99th percentile=5.018 ms
+23:43:08.528:  ┃ ┃ ┗download_frame: min=0.002 ms, median=0.028 ms, max=0.045 ms, 99th percentile=0.045 ms, 0.529412 calls per parent call
+23:43:08.528:  ┃ ┗output_video_data: min=1.625 ms, median=2.081 ms, max=2.82 ms, 99th percentile=2.82 ms, 0.470588 calls per parent call
+23:43:08.529:  ┗render_displays: min=11.88 ms, median=47.685 ms, max=629.959 ms, 99th percentile=629.959 ms
+23:43:08.529: video_thread(video): min=0.01 ms, median=93.749 ms, max=2389.43 ms, 99th percentile=2389.43 ms
+23:43:08.530:  ┗receive_video: min=7.742 ms, median=13.86 ms, max=170.742 ms, 99th percentile=167.241 ms, 16.75 calls per parent call
+23:43:08.530:    ┗do_encode: min=7.736 ms, median=13.854 ms, max=170.735 ms, 99th percentile=167.228 ms
+23:43:08.531:      ┣encode(test_x264): min=7.69 ms, median=13.806 ms, max=170.718 ms, 99th percentile=158.856 ms
+23:43:08.532:      ┗send_packet: min=0.017 ms, median=0.021 ms, max=8.347 ms, 99th percentile=0.124 ms, 0.80597 calls per parent call
+23:43:08.532: obs_graphics_thread(33.3333 ms): min=37.164 ms, median=197.97 ms, max=530.486 ms, 99th percentile=530.486 ms, 0% below 33.333 ms
+23:43:08.533:  ┣tick_sources: min=0.031 ms, median=0.035 ms, max=0.152 ms, 99th percentile=0.152 ms
+23:43:08.534:  ┣output_frame: min=1.507 ms, median=158.923 ms, max=261.486 ms, 99th percentile=261.486 ms
+23:43:08.535:  ┃ ┣gs_context(video->graphics): min=1.502 ms, median=157.908 ms, max=260.392 ms, 99th percentile=260.392 ms
+23:43:08.536:  ┃ ┃ ┣render_video: min=0.517 ms, median=157.769 ms, max=260.13 ms, 99th percentile=260.13 ms
+23:43:08.536:  ┃ ┃ ┃ ┣render_main_texture: min=0.457 ms, median=0.545 ms, max=2.834 ms, 99th percentile=2.834 ms
+23:43:08.537:  ┃ ┃ ┃ ┣render_output_texture: min=17.222 ms, median=26.175 ms, max=44.436 ms, 99th percentile=44.436 ms, 0.68 calls per parent call
+23:43:08.538:  ┃ ┃ ┃ ┣render_convert_texture: min=93.081 ms, median=122.529 ms, max=173.56 ms, 99th percentile=173.56 ms, 0.68 calls per parent call
+23:43:08.538:  ┃ ┃ ┃ ┗stage_output_texture: min=16.368 ms, median=32.216 ms, max=86.488 ms, 99th percentile=86.488 ms, 0.68 calls per parent call
+23:43:08.539:  ┃ ┃ ┣gs_flush: min=0.013 ms, median=0.016 ms, max=7.236 ms, 99th percentile=7.236 ms
+23:43:08.540:  ┃ ┃ ┗download_frame: min=0.003 ms, median=0.028 ms, max=0.035 ms, 99th percentile=0.035 ms, 0.68 calls per parent call
+23:43:08.541:  ┃ ┗output_video_data: min=0.941 ms, median=1.081 ms, max=1.619 ms, 99th percentile=1.619 ms, 0.64 calls per parent call
+23:43:08.541:  ┗render_displays: min=21.001 ms, median=63.201 ms, max=327.523 ms, 99th percentile=327.523 ms
+23:43:08.542: video_thread(video): min=0.005 ms, median=347.801 ms, max=501.406 ms, 99th percentile=501.406 ms
+23:43:08.543:  ┗receive_video: min=7.548 ms, median=16.757 ms, max=233.595 ms, 99th percentile=215.853 ms, 8.375 calls per parent call
+23:43:08.544:    ┗do_encode: min=7.542 ms, median=16.752 ms, max=233.589 ms, 99th percentile=215.845 ms
+23:43:08.544:      ┣encode(test_x264): min=7.499 ms, median=16.449 ms, max=233.059 ms, 99th percentile=215.836 ms
+23:43:08.545:      ┗send_packet: min=0.015 ms, median=0.019 ms, max=3.601 ms, 99th percentile=1.433 ms, 0.768657 calls per parent call
+23:43:08.546: obs_graphics_thread(16.6667 ms): min=36.802 ms, median=145.729 ms, max=375.057 ms, 99th percentile=375.057 ms, 0% below 16.667 ms
+23:43:08.547:  ┣tick_sources: min=0.03 ms, median=0.034 ms, max=6.156 ms, 99th percentile=6.156 ms
+23:43:08.547:  ┣output_frame: min=1.458 ms, median=99.406 ms, max=176.034 ms, 99th percentile=176.034 ms
+23:43:08.548:  ┃ ┣gs_context(video->graphics): min=1.453 ms, median=98.962 ms, max=175.446 ms, 99th percentile=175.446 ms
+23:43:08.548:  ┃ ┃ ┣render_video: min=0.195 ms, median=98.832 ms, max=175.323 ms, 99th percentile=175.323 ms
+23:43:08.549:  ┃ ┃ ┃ ┣render_main_texture: min=0.176 ms, median=0.562 ms, max=2.067 ms, 99th percentile=2.067 ms
+23:43:08.550:  ┃ ┃ ┃ ┣render_output_texture: min=16.751 ms, median=27.552 ms, max=76.345 ms, 99th percentile=76.345 ms, 0.722222 calls per parent call
+23:43:08.551:  ┃ ┃ ┃ ┣render_convert_texture: min=39.486 ms, median=52.028 ms, max=97.853 ms, 99th percentile=97.853 ms, 0.722222 calls per parent call
+23:43:08.551:  ┃ ┃ ┃ ┗stage_output_texture: min=8.8 ms, median=20.111 ms, max=45.937 ms, 99th percentile=45.937 ms, 0.722222 calls per parent call
+23:43:08.553:  ┃ ┃ ┣gs_flush: min=0.011 ms, median=0.014 ms, max=4.368 ms, 99th percentile=4.368 ms
+23:43:08.554:  ┃ ┃ ┗download_frame: min=0.003 ms, median=0.023 ms, max=0.032 ms, 99th percentile=0.032 ms, 0.722222 calls per parent call
+23:43:08.555:  ┃ ┗output_video_data: min=0.405 ms, median=0.477 ms, max=1.637 ms, 99th percentile=1.637 ms, 0.694444 calls per parent call
+23:43:08.555:  ┗render_displays: min=13.746 ms, median=43.871 ms, max=257.91 ms, 99th percentile=257.91 ms
+23:43:08.556: video_thread(video): min=27.961 ms, median=180.724 ms, max=414.637 ms, 99th percentile=414.637 ms
+23:43:08.558:  ┗receive_video: min=3.628 ms, median=8.498 ms, max=145.017 ms, 99th percentile=109.465 ms, 11.32 calls per parent call
+23:43:08.559:    ┗do_encode: min=3.623 ms, median=8.492 ms, max=145.012 ms, 99th percentile=109.46 ms
+23:43:08.560:      ┣encode(test_x264): min=3.582 ms, median=8.277 ms, max=144.797 ms, 99th percentile=109.426 ms
+23:43:08.561:      ┗send_packet: min=0.008 ms, median=0.015 ms, max=0.794 ms, 99th percentile=0.361 ms, 0.85159 calls per parent call
+23:43:08.561: obs_graphics_thread(33.3333 ms): min=19.648 ms, median=43.295 ms, max=251.818 ms, 99th percentile=251.818 ms, 28.9855% below 33.333 ms
+23:43:08.562:  ┣tick_sources: min=0.029 ms, median=0.037 ms, max=0.335 ms, 99th percentile=0.335 ms
+23:43:08.563:  ┣output_frame: min=0.947 ms, median=1.594 ms, max=7.462 ms, 99th percentile=7.462 ms
+23:43:08.563:  ┃ ┗gs_context(video->graphics): min=0.941 ms, median=1.589 ms, max=7.456 ms, 99th percentile=7.456 ms
+23:43:08.564:  ┃   ┣render_video: min=0.131 ms, median=0.182 ms, max=1.194 ms, 99th percentile=1.194 ms
+23:43:08.565:  ┃   ┃ ┗render_main_texture: min=0.115 ms, median=0.16 ms, max=1.147 ms, 99th percentile=1.147 ms
+23:43:08.566:  ┃   ┗gs_flush: min=0.67 ms, median=1.265 ms, max=6.994 ms, 99th percentile=6.994 ms
+23:43:08.567:  ┗render_displays: min=17.725 ms, median=40.892 ms, max=187.553 ms, 99th percentile=187.553 ms
+23:43:08.568: obs_graphics_thread(16.6667 ms): min=0.837 ms, median=58.345 ms, max=1853.23 ms, 99th percentile=387.082 ms, 14.8224% below 16.667 ms
+23:43:08.569:  ┣tick_sources: min=0.008 ms, median=11.595 ms, max=447.855 ms, 99th percentile=53.132 ms
+23:43:08.570:  ┣output_frame: min=0.352 ms, median=2.033 ms, max=793.217 ms, 99th percentile=155.89 ms
+23:43:08.570:  ┃ ┣gs_context(video->graphics): min=0.346 ms, median=2.027 ms, max=793.212 ms, 99th percentile=154.777 ms
+23:43:08.571:  ┃ ┃ ┣render_video: min=0.102 ms, median=1.703 ms, max=758.548 ms, 99th percentile=154.65 ms
+23:43:08.572:  ┃ ┃ ┃ ┣render_main_texture: min=0.084 ms, median=1.672 ms, max=758.519 ms, 99th percentile=6.118 ms
+23:43:08.572:  ┃ ┃ ┃ ┣render_output_texture: min=25.293 ms, median=35.332 ms, max=85.92 ms, 99th percentile=85.92 ms, 0.00819672 calls per parent call
+23:43:08.573:  ┃ ┃ ┃ ┣render_convert_texture: min=98.838 ms, median=113.088 ms, max=149.751 ms, 99th percentile=149.751 ms, 0.00819672 calls per parent call
+23:43:08.574:  ┃ ┃ ┃ ┗stage_output_texture: min=18.93 ms, median=26.639 ms, max=60.443 ms, 99th percentile=60.443 ms, 0.00819672 calls per parent call
+23:43:08.575:  ┃ ┃ ┣gs_flush: min=0.012 ms, median=0.049 ms, max=7.464 ms, 99th percentile=3.67 ms
+23:43:08.576:  ┃ ┃ ┗download_frame: min=0.002 ms, median=0.032 ms, max=0.058 ms, 99th percentile=0.058 ms, 0.00819672 calls per parent call
+23:43:08.576:  ┃ ┗output_video_data: min=1.043 ms, median=2.218 ms, max=3.187 ms, 99th percentile=3.187 ms, 0.00751366 calls per parent call
+23:43:08.577:  ┗render_displays: min=0.031 ms, median=44.148 ms, max=1073.36 ms, 99th percentile=288.109 ms
+23:43:08.578: OBSBasic::ResetVideo: 106.855 ms
+23:43:08.578: OBSBasic::ResetOutputs: min=8.142 ms, median=0 ms, max=20.596 ms, 99th percentile=20.596 ms
+23:43:08.578: video_thread(video): min=0.014 ms, median=522.494 ms, max=1402.45 ms, 99th percentile=1402.45 ms
+23:43:08.579:  ┗receive_video: min=7.162 ms, median=14.3 ms, max=197.873 ms, 99th percentile=82.599 ms, 36.5455 calls per parent call
+23:43:08.579:    ┗do_encode: min=7.151 ms, median=14.29 ms, max=197.86 ms, 99th percentile=82.594 ms
+23:43:08.580:      ┣encode(simple_h264_recording): min=7.139 ms, median=14.202 ms, max=197.851 ms, 99th percentile=77.309 ms
+23:43:08.581:      ┗send_packet: min=0.013 ms, median=0.03 ms, max=118.635 ms, 99th percentile=2.525 ms, 0.922886 calls per parent call
+23:43:08.581: =================================================
+23:43:08.582: == Profiler Time Between Calls ==================
+23:43:08.583: obs_hotkey_thread(25 ms): min=25.467 ms, median=33.49 ms, max=1174.55 ms, 0.0326371% within ±2% of 25 ms (0% lower, 99.9674% higher)
+23:43:08.584: obs_graphics_thread(33.3333 ms): min=19.106 ms, median=33.333 ms, max=1430.47 ms, 71.3542% within ±2% of 33.333 ms (13.2812% lower, 15.3646% higher)
+23:43:08.586: obs_graphics_thread(16.6667 ms): min=39.517 ms, median=171.374 ms, max=1795.57 ms, 0% within ±2% of 16.667 ms (0% lower, 100% higher)
+23:43:08.587: obs_graphics_thread(33.3333 ms): min=37.228 ms, median=218.645 ms, max=530.628 ms, 0% within ±2% of 33.333 ms (0% lower, 100% higher)
+23:43:08.587: obs_graphics_thread(16.6667 ms): min=37.663 ms, median=145.775 ms, max=375.198 ms, 0% within ±2% of 16.667 ms (0% lower, 100% higher)
+23:43:08.588: obs_graphics_thread(33.3333 ms): min=20.376 ms, median=46.443 ms, max=251.865 ms, 8.82353% within ±2% of 33.333 ms (20.5882% lower, 70.5882% higher)
+23:43:08.589: obs_graphics_thread(16.6667 ms): min=2.467 ms, median=58.388 ms, max=1853.27 ms, 14.149% within ±2% of 16.667 ms (0.341763% lower, 85.5092% higher)
+23:43:08.589: =================================================
+23:43:08.773: Number of memory leaks: 1

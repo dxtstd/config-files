@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=WebCord
+Comment=A Discord and Fosscord client made with the Electron API.
+GenericName=Internet Messenger
+Exec=webcord --no-sandbox %U
+Icon=webcord
+Type=Application
+StartupNotify=true
+Categories=Network;InstantMessaging;
+X-XFCE-Source=file:///usr/share/applications/webcord.desktop
+Path=
+Terminal=false
