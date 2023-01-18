@@ -1,0 +1,7 @@
+#!/bin/sh
+
+### FOR AUDIO
+#PULSE_SERVER=127.0.0.1
+pulseaudio --start
+
+dbus-launch --exit-with-session startxfce4

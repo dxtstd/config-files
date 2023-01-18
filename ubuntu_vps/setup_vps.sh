@@ -111,16 +111,6 @@ install_nodejs () {
 }
 install_nodejs
 
-VNC_CONFIG="
-#!/bin/sh
-
-### FOR AUDIO
-#PULSE_SERVER=127.0.0.1
-pulseaudio --start
-
-dbus-launch --exit-with-session startxfce4
-"
-
 VSCODE_URL="https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
 CHROME_URL="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 ask_install_desktop () {
@@ -138,19 +128,19 @@ ask_install_desktop () {
             apt install $TMPDIR/deb-package/*.deb -y
             rm -rf $TMPDIR/deb-package
             
-#            echo "Configuring VNC File..."
-#            for USER_HOME_DIR in /home/*; do
-#              echo $USER_HOME_DIR
-#              if [ ! -d $USER_HOME_DIR/.vnc ]
-#              then
-#                  mkdir $USER_HOME_DIR/.vnc
-#              fi
-#              echo $VNC_CONFIG > $USER_HOME_DIR/.vnc/xstartup
-#             chmod +x $USER_HOME_DIR/.vnc/xstartup
-#
-#              USER_array=(`echo $USER_HOME_DIR | sed 's/\//\n/g'`)
-#              chown $USER_array[2]:$USER_array[2] $USER_HOME_DIR/.vnc/xstartup
-#            done
+            echo "Configuring VNC File..."
+            for USER_HOME_DIR in /home/*; do
+              echo $USER_HOME_DIR
+              if [ ! -d $USER_HOME_DIR/.vnc ]
+              then
+                  mkdir $USER_HOME_DIR/.vnc
+              fi
+              cp ./xstartup $USER_HOME_DIR/.vnc/xstartup -f
+              chmod +x $USER_HOME_DIR/.vnc/xstartup
+
+              USERNAME=`echo $USER_HOME_DIR | sed 's/\/home\///g'`
+              chown $USERNAME:$USERNAME $USER_HOME_DIR/.vnc/xstartup
+            done
             
             echo
         ;;
