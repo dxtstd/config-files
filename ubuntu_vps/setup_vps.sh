@@ -95,7 +95,7 @@ install_nodejs () {
       echo "Remove TMP NodeJS..."
       rm -rf $TMPDIR/node*
 
-      NPM_MODULE="ts-node typescript nodemon pm2"
+      NPM_MODULE="ts-node typescript nodemon pm2 yarn"
       echo "Installing NPM Module $NPM_MODULE (Global)..."
       npm install -g $NPM_MODULE
 
@@ -139,7 +139,7 @@ ask_install_desktop () {
               chmod +x $USER_HOME_DIR/.vnc/xstartup
 
               USERNAME=`echo $USER_HOME_DIR | sed 's/\/home\///g'`
-              chown $USERNAME:$USERNAME $USER_HOME_DIR/.vnc/xstartup
+              chown -R $USERNAME:$USERNAME $USER_HOME_DIR/.vnc/
             done
             
             echo
