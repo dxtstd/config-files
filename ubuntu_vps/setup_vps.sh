@@ -165,3 +165,21 @@ config_pulseaudio () {
   fi
 }
 config_pulseaudio
+
+config_swap () {
+  echo "Configuring swap..."
+  if [ -e "/swap" ]
+  then
+    echo "swap already exists"
+    swapon /swap
+  else
+    fallocate -l 8G /swap
+    chmod 600 /swap
+    mkswap /swap
+    swapon /swap
+
+    echo '/swap none swap sw 0 0' | sudo tee -a /etc/fstab
+  fi
+  
+
+}
