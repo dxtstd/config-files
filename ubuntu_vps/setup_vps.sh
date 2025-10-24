@@ -57,7 +57,7 @@ install_package
 URL_NODEJS=""
 NODEJS_LINUX() {
     NODEJS_WEB="https://nodejs.org/dist"
-    NODEJS_VERSION="v19.3.0"
+    NODEJS_VERSION="v22.21.0"
     NODEJS_ARCH="x64"
     NODEJS_PLATFORM="linux"
 
